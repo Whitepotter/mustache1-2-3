@@ -1,0 +1,18 @@
+h2{
+    font-size: 25px !important;
+}
+
+.btn-success:hover{
+    background-color: turquoise;
+}
+
+canvas{
+    animation-duration: 5s;
+    animation-name: colour;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colour{
+    from{box-shadow: 5px 5px 50px green;}
+    to{box-shadow: 5px 5px 50px blue;}
+}
